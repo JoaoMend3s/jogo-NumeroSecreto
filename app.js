@@ -1,3 +1,4 @@
+
 let listaNumerosSelecionadas = [];
 let quantidadeDeChutes = 10;
 let numeroSecreto = gerarNumero();
@@ -68,3 +69,4 @@ function verificarChute() {
     document.getElementById("reiniciar").setAttribute("disabled", 
         false)
     }
+
