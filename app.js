@@ -1,6 +1,6 @@
 
 let listaNumerosSelecionadas = [];
-let quantidadeDeChutes = 10;
+let quantidadeDeChutes = 100;
 let numeroSecreto = gerarNumero();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto){
 
 function mensagemInicial() {
     exibirTextoNaTela("h1", "Jogo do Número Secreto");
-    exibirTextoNaTela("p", "Escolha um número de 1 a 10!");
+    exibirTextoNaTela("p", "Escolha um número de 1 a 100!");
 }
 mensagemInicial();
 function verificarChute() {
